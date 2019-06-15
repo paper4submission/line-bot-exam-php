@@ -3,8 +3,8 @@
 require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
-// App Name : EENET2019_MSG
-$access_token = '/uI+6i00zwm0cpsR2sS6FL5ywLmrj5Bpb/xoG5Yfw4/dJGXbsablO30bet7BByR8lp30Xx0hgrKpoxGEEMwNobIlzQO8DGEpaWLvTNXCILXsxj5hw14+ZYAy1II0lFI3tp3xGelMW7hQuxM2GvzC/AdB04t89/1O/w1cDnyilFU=';
+// App Name : EENET2020_MSG
+$access_token = 'nfaeu7GfZamJ+c0pgsj9iB9EPM8HSNQQzT7i1FwsVnKRTokM6GWPD6x5RdjdbFrqpajVQIbr+HJYalqdT/Bw4ffKlN9I4glLNp8VNuPn8a8fB1TZxG7IcDyzs9geSfdZMrgUtfzJhkH3y2y5Vr7zxQdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
 $content = file_get_contents('php://input');
